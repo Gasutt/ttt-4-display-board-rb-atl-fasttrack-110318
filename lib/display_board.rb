@@ -9,3 +9,15 @@ puts " #{board[3]} | #{board[4]} | #{board[5]} "
 puts "-----------"
 puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
+
+
+
+
+
+names = ["Rob", "Emily", "Dean", "Tammy", "Brit"]
+
+greetings = []
+names.each do |name|
+ greetings<< "HI #{name}"
+end
+print greetings
